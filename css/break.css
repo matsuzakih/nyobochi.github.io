@@ -1,0 +1,130 @@
+@media(max-width:670px) {
+  .wrapper{
+    width: calc(100% - 34px);
+  }
+  .display-pc{
+    display: none;
+  }
+  h2{
+    font-size: 2.8rem;
+  }
+  .section-sub{
+    font-size: 1.4rem;
+    text-align: left;
+    padding-bottom:32px;
+  }
+  .work-text,table{
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+  }
+
+  /*header*/
+  header{
+    height: 350px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("../images/header.png")50%;
+    background-size: cover;
+  }
+  .logo{
+    font-size: 2.4rem;
+  }
+  h1{
+    font-size: 6.4rem;
+    padding-top: 120px;
+  }
+  .nav{
+    top:0;
+  }
+
+  /*concept*/
+  #concept{
+    padding:40px 0;
+    background: linear-gradient(#fff 75%, #EDEDED 25%);
+  }
+
+  /*work*/
+  #work{
+    padding:40px 0 24px;
+  }
+  .contents-wrapper{
+    overflow-x: scroll;
+    overflow-y: visible;
+  }
+  .work-contents{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+  .work-item{
+    width:80vw;
+    padding-bottom: 40px;
+  }
+  .work-item:nth-of-type(2){
+    margin-top:0;
+  }
+  .work-item:not(:last-child){
+    margin-right:24px;
+  }
+  .work-img{
+    height: 200px;
+    margin-bottom: 0;
+    object-fit: cover;
+  }
+
+  /*florist*/
+  #florist{
+    padding:40px 0 24px;
+    background: #EDEDED;
+  }
+  .contents-wrapper{
+    overflow-x: scroll;
+    overflow-y: visible;
+  }
+  .flo-contents{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+  }
+  .flo-item{
+    width:80vw;
+    padding-bottom: 40px;
+  }
+  .flo-item:not(:last-child){
+    margin-right:24px;
+  }
+  .flo-img{
+    margin-bottom: 0;
+  }
+
+  /*shop*/
+  #shop-info{
+    padding:40px 0;
+  }
+  .shop-contents{
+    display: flex;
+    flex-direction: column;
+  }
+  .shop-img{
+    width:100%;
+  }
+  table{
+    width:100%;
+    letter-spacing: 0.13em;
+  }
+
+  /*contact*/
+  #contact{
+    padding:40px 0 60px;
+  }
+  .btn-mail{
+    width:280px;
+    padding-left:50px;
+  }
+  .btn-mail::before{
+    left:50px;
+  }
+  .btn-mail::after{
+    left:55px;
+  }
+}

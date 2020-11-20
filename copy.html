@@ -1,0 +1,10 @@
+$(function(){
+  var headerHeight = $('header’).height()
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > headerHeight){
+      $('.nav').addClass("nav-fixed");
+    } else {
+      $('.nav').removeClass("nav-fixed");
+    }
+  });
+});
